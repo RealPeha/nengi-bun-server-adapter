@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "declaration": true,
+
+    "types": ["bun-types"],
+
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "Node",
+
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
